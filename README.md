@@ -59,8 +59,8 @@ Mercado pulverizado, sem item individual que concentre grande volume.
 ### 3) Avaliação média e mediana por loja
 <img src="images/03_avaliacao_lojas.png" alt="Avaliação das lojas" width="900">
 
-As médias variam ligeiramente de 3,98 a 4,05
-loja_3 4,05, loja_2 4,04, loja_4 4,00, loja_1 3,98.
+As médias variam ligeiramente de 3,98 a 4,05 - 
+loja 3: 4,05, loja 2: 4,04, loja 4: 4,00, loja 1: 3,98.
 
 As medianas são 5,0 em todas as lojas, indicando concentração de avaliações máximas.
 
@@ -80,7 +80,7 @@ Os líderes ficam perto de 2% do volume cada, reforçando a pulverização. Não
 ### 5) Frete médio por loja com referência na mediana global
 <img src="images/05_frete_medio_por_loja.png" alt="Frete médio por loja" width="900">
 
-Frete médio: loja_1 R$ 35, loja_2 R$ 34, loja_3 R$ 33, loja_4 R$ 31.  
+Frete médio: loja 1: R$ 35, loja 2: R$ 34, loja 3: R$ 33, loja 4: R$ 31.  
 Mediana global, aproximadamente R$ 16. Frete um pouco menor na loja_4 não compensa a menor receita.
 
 ---
