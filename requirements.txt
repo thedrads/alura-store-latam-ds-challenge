@@ -1,0 +1,17 @@
+# =============================================================================
+# Alura Store - Análise de Desempenho de Lojas
+# Dependências do Projeto
+# =============================================================================
+
+# Manipulação e análise de dados
+pandas>=1.5.0
+
+# Visualização de dados
+matplotlib>=3.5.0
+
+# -----------------------------------------------------------------------------
+# Notas:
+# - unicodedata é biblioteca padrão do Python (não precisa instalar)
+# - O projeto foi desenvolvido e testado no Google Colab
+# - Para instalar: pip install -r requirements.txt
+# -----------------------------------------------------------------------------
