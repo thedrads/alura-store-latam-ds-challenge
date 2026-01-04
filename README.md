@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
 
-Análise comparativa das quatro lojas do e-commerce **Alura Store** para identificar qual loja possui o pior desempenho e deve ser recomendada para venda.
+Análise comparativa das quatro lojas do e-commerce **Alura Store** para identificar qual loja possui o pior desempenho e deve ser recomendada para ser vendida.
 
 🌐 **[Ver Projeto Online (GitHub Pages)](https://thedrads.github.io/alura-store-latam-ds-challenge/)**
 
