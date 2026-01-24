@@ -1,23 +1,27 @@
 # 🛒 Alura Store — Análise de Desempenho de Lojas
+### 🎓 Projeto acadêmico | Challenge Data Science – Alura + Oracle ONE
 
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-2.0+-150458?style=flat&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5+-11557C?style=flat)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat&logo=jupyter&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
-
-Análise comparativa das quatro lojas do e-commerce **Alura Store** para identificar qual loja possui o pior desempenho e deve ser recomendada para ser vendida.
-
-🌐 **[Ver Projeto Online (GitHub Pages)](https://thedrads.github.io/alura-store-latam-ds-challenge/)**
+---
 
 [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thedrads/alura-store-latam-ds-challenge/blob/main/alura_store_latam_ds_challenge.ipynb)
+
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-2.0+-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5+-11557C?style=for-the-badge)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge)
+
+> Análise comparativa das quatro lojas do e-commerce **Alura Store** para identificar qual loja possui o pior desempenho e deve ser recomendada para venda.
+
+🌐 **[Ver Projeto Online (GitHub Pages)](https://thedrads.github.io/alura-store-latam-ds-challenge/)**
 
 ---
 
 ## 📑 Sumário
 
 - [Sobre o Projeto](#-sobre-o-projeto)
+- [Minha Jornada](#-minha-jornada)
 - [Principais Resultados](#-principais-resultados)
 - [Visualizações](#-visualizações)
 - [Recomendação Final](#-recomendação-final)
@@ -49,6 +53,16 @@ Analisar as seguintes métricas para cada loja e identificar a de pior desempenh
 - ⭐ Avaliação média dos clientes
 - 🏆 Produtos mais e menos vendidos
 - 🚚 Custo médio do frete
+
+---
+
+## 🚀 Minha Jornada
+
+Sou gestor financeiro com 20 anos de experiência em gestão empresarial, atualmente em transição de carreira para Data Science e Cloud Computing. Este projeto faz parte da minha formação no programa **Oracle Next Education (ONE)** e do **MBA em IA & Análise de Dados (SENAC)**.
+
+Neste desafio, apliquei análise exploratória de dados para resolver um problema real de negócio: identificar qual loja de uma rede deveria ser vendida. Minha experiência em gestão me permitiu ir além dos números, contextualizando a recomendação com visão estratégica.
+
+Como iniciante em programação, busco aprender continuamente e trocar conhecimento com a comunidade. Este repositório representa um passo concreto na construção do meu portfólio técnico — com transparência sobre meu nível atual e compromisso com a evolução constante.
 
 ---
 
@@ -114,13 +128,13 @@ Liderança pulverizada: "Cômoda" lidera com apenas 2% do volume.
 ### 5. Frete Médio por Loja
 ![Frete Médio](images/05_frete_medio_por_loja.png)
 
-Frete médio varia de R$ 31 (loja 4) a R$ 35 (loja 1). Mediana global: R$ 16.
+Frete médio varia de R$ 31 (Loja 4) a R$ 35 (Loja 1). Mediana global: R$ 16.
 
 ---
 
 ## 🎯 Recomendação Final
 
-### **Recomendo vender a loja 4.**
+### **Recomendo vender a Loja 4.**
 
 | Critério | Análise |
 |----------|---------|
@@ -129,7 +143,13 @@ Frete médio varia de R$ 31 (loja 4) a R$ 35 (loja 1). Mediana global: R$ 16.
 | **Frete** | Menor custo (R$ 31), mas não compensa o gap de receita |
 | **Mix de produtos** | Pulverizado, sem alavancas claras para reversão |
 
-> **Análise de sensibilidade:** Mesmo considerando apenas preço (sem frete), a loja 4 permanece na última posição.
+> **Análise de sensibilidade:** Mesmo considerando apenas preço (sem frete), a Loja 4 permanece na última posição.
+
+### Perspectiva de Negócio
+
+Com base na minha experiência em gestão financeira, a decisão de vender a Loja 4 considera não apenas o menor faturamento, mas o **custo de oportunidade**: manter uma operação de baixo desempenho consome recursos (gestão, marketing, logística) que poderiam ser direcionados às lojas mais rentáveis.
+
+A diferença de R$ 158 mil entre a Loja 4 e a Loja 1 representa capital que, reinvestido nas operações de melhor performance, pode gerar retorno composto superior à tentativa de recuperação da loja deficitária.
 
 ---
 
@@ -137,11 +157,11 @@ Frete médio varia de R$ 31 (loja 4) a R$ 35 (loja 1). Mediana global: R$ 16.
 
 ```
 alura-store-latam-ds-challenge/
-├── 📄 README.md                              # Documentação do projeto
-├── 📄 LICENSE                                # Licença MIT
-├── 📄 requirements.txt                       # Dependências Python
-├── 📓 alura_store_latam_ds_challenge.ipynb   # Notebook principal
-└── 📂 images/                                # Visualizações exportadas
+├── README.md                              # Documentação do projeto
+├── LICENSE                                # Licença MIT
+├── requirements.txt                       # Dependências Python
+├── alura_store_latam_ds_challenge.ipynb   # Notebook principal
+└── images/                                # Visualizações exportadas
     ├── 01_faturamento_por_loja.png
     ├── 02_vendas_por_categoria.png
     ├── 03_avaliacao_lojas.png
@@ -151,7 +171,7 @@ alura-store-latam-ds-challenge/
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🧰 Tecnologias Utilizadas
 
 | Tecnologia | Versão | Uso |
 |------------|--------|-----|
@@ -165,29 +185,41 @@ alura-store-latam-ds-challenge/
 
 ## 🚀 Como Executar
 
-### Opção 1: Google Colab (Recomendado)
+### Opção Rápida: Google Colab
 
-1. Clique no botão abaixo:
+[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thedrads/alura-store-latam-ds-challenge/blob/main/alura_store_latam_ds_challenge.ipynb)
 
-   [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/thedrads/alura-store-latam-ds-challenge/blob/main/alura_store_latam_ds_challenge.ipynb)
+### Execução Local
 
-2. Execute todas as células: **Runtime** → **Run all**
+#### Pré-requisitos
 
-### Opção 2: Localmente
+- Python 3.10 ou superior
+- pip (gerenciador de pacotes)
 
-```bash
-# Clone o repositório
-git clone https://github.com/thedrads/alura-store-latam-ds-challenge.git
+#### Instalação
 
-# Entre na pasta
-cd alura-store-latam-ds-challenge
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/thedrads/alura-store-latam-ds-challenge.git
+   cd alura-store-latam-ds-challenge
+   ```
 
-# Instale as dependências
-pip install -r requirements.txt
+2. **Crie um ambiente virtual** (recomendado)
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/Mac
+   venv\Scripts\activate     # Windows
+   ```
 
-# Abra o Jupyter Notebook
-jupyter notebook alura_store_latam_ds_challenge.ipynb
-```
+3. **Instale as dependências**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Execute o notebook**
+   ```bash
+   jupyter notebook alura_store_latam_ds_challenge.ipynb
+   ```
 
 ---
 
@@ -223,21 +255,23 @@ Os dados são carregados diretamente das URLs oficiais do desafio (repositório 
 
 ---
 
-## 📐 Metodologia
+## 🔬 Metodologia
+
+O projeto segue o processo **ETL + EDA**:
 
 ### Processo de Análise
 
 ```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   EXTRAÇÃO      │ →  │  TRANSFORMAÇÃO  │ →  │    ANÁLISE      │
-│   (4 CSVs)      │    │  (Limpeza)      │    │    (EDA)        │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-        ↓                      ↓                      ↓
-  • URLs oficiais        • Normalização          • Faturamento
-  • pd.read_csv()        • Tipos corretos        • Categorias
-                         • Colunas padrão        • Avaliações
-                         • total_pago            • Produtos
-                                                 • Frete
+┌─────────────────────┐    ┌─────────────────────┐    ┌─────────────────────┐
+│     EXTRAÇÃO        │ →  │   TRANSFORMAÇÃO     │ →  │      ANÁLISE        │
+│     (4 CSVs)        │    │     (Limpeza)       │    │       (EDA)         │
+└─────────────────────┘    └─────────────────────┘    └─────────────────────┘
+         ↓                          ↓                          ↓
+   • URLs oficiais           • Normalização             • Faturamento
+   • pd.read_csv()           • Tipos corretos           • Categorias
+                             • Colunas padrão           • Avaliações
+                             • total_pago               • Produtos
+                                                        • Frete
 ```
 
 ### Etapas Realizadas
@@ -254,13 +288,13 @@ Os dados são carregados diretamente das URLs oficiais do desafio (repositório 
 
 ## 🤖 Declaração de Uso de IA
 
-Este projeto foi desenvolvido com auxílio de **Inteligência Artificial (IA)** como ferramenta de apoio.
+Este projeto foi desenvolvido com assistência de **Inteligência Artificial Generativa**.
 
-### Escopo do Uso
+### Escopo de Utilização
 
 | Aspecto | Descrição |
 |---------|-----------|
-| **Ferramenta** | Chat GPT |
+| **Ferramenta** | ChatGPT / Claude |
 | **Uso** | Revisão de código, boas práticas, documentação |
 | **Responsabilidade** | Toda análise e interpretação são do autor |
 | **Validação** | Código compreendido e testado antes do uso |
@@ -277,10 +311,13 @@ Este projeto foi desenvolvido com auxílio de **Inteligência Artificial (IA)** 
 - ✅ Criação da recomendação final
 - ✅ Validação de todos os resultados
 
-### Referências sobre Uso Ético de IA
+### Referências sobre Disclosure de IA
 
-- [Princeton - Academic Integrity & AI](https://mcgraw.princeton.edu/academic-integrity)
-- [ASU - AI in Academic Work](https://provost.asu.edu/academic-integrity)
+- [Princeton University - Disclosing the Use of AI](https://libguides.princeton.edu/generativeAI/disclosure)
+- [Arizona State University - Acknowledging AI Usage](https://libguides.asu.edu/generativeai/acknowledgement)
+- [AID Framework - AI Disclosure](https://crln.acrl.org/index.php/crlnews/article/view/26548)
+
+> Este projeto está alinhado à minha formação contínua em IA aplicada aos negócios, incluindo cursos como [IA Aplicada aos Negócios – FGV](https://educacao-executiva.fgv.br/cursos/live/curta-media-duracao-live/inteligencia-artificial-aplicada-aos-negocios-2) e [Generative AI for Productivity – Cornell](https://ecornell.cornell.edu/certificates/technology/generative-ai-for-productivity/).
 
 ---
 
@@ -290,7 +327,7 @@ Este projeto foi desenvolvido com auxílio de **Inteligência Artificial (IA)** 
   <tr>
     <td align="center">
       <a href="https://github.com/thedrads">
-        <img src="https://github.com/thedrads.png" width="100px;" alt="Foto do Autor"/><br>
+        <img src="https://github.com/thedrads.png" width="100px;" alt="Fábio Andrade"/><br>
         <sub><b>Fábio Andrade</b></sub>
       </a>
     </td>
@@ -298,7 +335,7 @@ Este projeto foi desenvolvido com auxílio de **Inteligência Artificial (IA)** 
 </table>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabioandradegf/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thedrads)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thedrads)
 
 **Programa:** Oracle Next Education (ONE) + Alura  
 **Trilha:** Data Science
@@ -307,12 +344,10 @@ Este projeto foi desenvolvido com auxílio de **Inteligência Artificial (IA)** 
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está sob a licença MIT — consulte [LICENSE](LICENSE) para detalhes.
 
 ---
 
-<div align="center">
-  
-⭐ **Se este projeto foi útil, considere dar uma estrela!** ⭐
-
-</div>
+<p align="center">
+  Desenvolvido por <a href="https://github.com/thedrads">Fábio Andrade</a> | Aberto a feedbacks e contribuições
+</p>
